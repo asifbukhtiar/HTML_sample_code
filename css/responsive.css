@@ -1,0 +1,91 @@
+@media screen and (min-width: 1800px) and (max-width: 1950px) { 
+.main-services {
+		padding: 11% 0;
+	}
+	.banner .carousel-inner::after {
+		background-size: 80%;
+		background-position: 16% center;
+	}
+}
+@media screen and (min-width: 1660px) and (max-width: 1800px) { 
+.main-services {
+		padding: 10.5% 0;
+	}
+	.banner .carousel-inner::after {
+		background-size: 80%;
+		background-position: 16% center;
+	}
+}
+@media screen and (min-width: 1550px) and (max-width: 1660px) { 
+	.banner .carousel-inner::after {
+		background-size: 80%;
+		background-position: 16% center;
+	}
+	.main-services {
+		padding: 10% 0;
+	}
+}
+/*@media screen and (min-width: 1280px) and (max-width: 1400px) { 
+	.banner .carousel-inner::after {
+		background-size: 80%;
+		background-position: 16% center;
+	}
+	.main-services {
+		padding: 125px 0;
+	}
+	.banner {
+	  height: 805px;
+	}
+	.banner .carousel-item {
+	  height: 805px;
+	}
+}*/
+@media only screen and (max-width:1550px){
+
+	.main-services {
+  padding: 7% 0;
+  z-index: 2;
+}
+ .banner .carousel-inner::after {
+		background-size: 80%;
+		background-position: 40px center;
+	}
+
+}
+@media only screen and (max-width:1380px){
+
+	.where-tab-sec {
+		margin: 0 0 30px;
+	}
+	.btn.btn-md.how-work-btn {
+		margin: 0 0 38px;
+	}
+	.main-services {
+	  padding: 3% 0;
+	  z-index: 2;
+	}
+ 	.banner .carousel-inner::after {
+		background-size: 80%;
+		background-position: 40px center;
+	}
+
+}	
+@media only screen and (max-width:1200px){
+.main-services {
+  position: absolute;
+  bottom: 24px;
+  left: 0;
+  right: 0;
+  top: 0;
+  max-width: 375px;
+  /* height: auto; */
+  margin: 0 auto;
+  text-align: center;
+  padding: 7.5% 0;
+  z-index: 2;
+}
+ .banner .carousel-inner::after {
+		background-size: 80%;
+		background-position: 40px center;
+	}
+}
